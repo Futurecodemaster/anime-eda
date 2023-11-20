@@ -9,7 +9,7 @@ def custom_css():
     st.markdown("""
         <style>
         h1 {
-            color: #363457;
+            color: #FF6347;
             text-align: center;
         }
         h2 {
