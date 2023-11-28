@@ -39,7 +39,7 @@ with st.container():
     st.write("---")
     st_lottie(lottie_coding, height=300, key="coding")
 
-# Load your data
+# Loading data
 @st.cache_data 
 def load_data():
     data = pd.read_csv('anime.csv') 
@@ -53,7 +53,7 @@ st.write("""
 What is the distribution of average scores across different types of anime (e.g., TV, Movie, OVA)?
 """)
 
-# Display a subset of data
+# Displaying subset of data
 st.subheader('Subset of Data')
 st.dataframe(data.head()) 
 
